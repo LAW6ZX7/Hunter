@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="gg.js">
-    <link rel="stylesheet" href="gg.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Website</title>
     <!-- Link To CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="gg.css">
     <!-- Box Icons -->
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -33,12 +31,8 @@
     </header>
     <!-- Home -->
  
-    <section class="home" id="home">
-        <div class="social">
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-twitter' ></i></a>
-            <a href="#"><i class='bx bxl-instagram' ></i></a>
-        </div>
+    <div class="home" id="home" style="display: flex;align-items: center;padding: 50px 10%;">
+        
         <div class="home-img">
             <img src="img/hero.jpg" alt="">
         </div>
@@ -48,8 +42,8 @@
             <h2>Bug Bounty Hunter</h2>
             <a href="#contact" class="btn">Contact Me</a>
         </div>
- 
-    </section>
+    </div>
+    <div class="line"></div>
     <!-- About -->
     <section class="about" id="about">
         <div class="heading">
@@ -59,7 +53,7 @@
         <!-- About Content -->
         <div class="about-container">
             <div class="about-img">
-                <img src="img/about.jpg" alt="">
+                <img src="img/about.jpg" alt="img">
             </div>
             <div class="about-text">
                 <p>I am a Web-Dev, Cyber security, Penetration Testing, Bug bounty Hunter.
@@ -80,11 +74,18 @@
                         <i class='bx bxs-envelope' ></i>
                         <span>adnanmodawi6zx7@gmail.com</span>
                     </div>
+                    <!-- Box 4 -->
+                    <div class="social">
+                        <a href="https://github.com/LAW6ZX7" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    </div>
                 </div>
                 
             </div>
         </div>
     </section>
+    <div class="line"></div>
     <!-- Skills -->
     <section class="skills" id="skills">
         <div class="heading">
@@ -122,7 +123,7 @@
         </div>
  
     </section>
-    
+    <div class="line"></div>
     <!-- Services -->
     <section class="services" id="services">
         <div class="heading">
@@ -150,7 +151,7 @@
             </div>
         </div>
     </section>
-    
+    <div class="line"></div>
     <!-- Portfolio -->
     <section class="portfolio" id="portfolio">
         <div class="heading">
@@ -173,6 +174,7 @@
             
         </div>
     </section>
+    <div class="line"></div>
     <!-- Contact -->
     <section class="contact" id="contact">
         <div class="heading">
@@ -181,21 +183,19 @@
         </div>
         <div class="contact-form">
             <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" name="" id="" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <input type="button" value="Send" class="contact-button">
+                <input type="text" name="name" autocomplete="off" placeholder="Your Name">
+                <input type="email" name="email" autocomplete="off" id="email" placeholder="Your Email">
+                <textarea name="feed" id="feed" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="submit" name="submit" value="Send" class="contact-button">
             </form>
         </div>
     </section>
     <!-- Copyright -->
     <div class="copyright">
-        <p>Create By <a href="https://github.com/LAW6ZX7">Hunter.</a> | All Right Reserved.</p>
+        <p>Create By <a href="https://github.com/LAW6ZX7" target="_blank">Hunter.</a> | All Right Reserved.</p>
     </div>
- 
- 
- 
+
     <!-- Link To JS -->
-    <script src="./js/script.js"></script>
+    <script src="gg.js"></script>
 </body>
 </html>
